@@ -1,0 +1,15 @@
+[package]
+name = "workshop"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hello_blockchain="0x12af7465091a66fd73f16d1bd1fed9888d616140e510c34c62cf94bff132ac4a"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
